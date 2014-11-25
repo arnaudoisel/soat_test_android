@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">My Application</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Luncher</string>
     <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Login -->
+    <string name="login_button">Click here to login</string>
+
+    <!-- Drawer items -->
+    <string name="drawer_agenda">Agenda</string>
+    <string name="drawer_circles">Circles</string>
+    <string name="drawer_parameters">Parameters</string>
+
+    <!-- Agenda -->
+    <string name="agenda_example_text">Agenda example text</string>
+
+    <!-- Circles -->
+    <string name="circles_example_text">Circles example text</string>
+
+    <!-- Params -->
+    <string name="parameters_example_text">Parameters example text</string>
 
 </resources>

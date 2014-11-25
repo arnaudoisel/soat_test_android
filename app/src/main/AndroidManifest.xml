@@ -3,12 +3,13 @@
     package="com.example.formation.myapplication" >
 
     <application
+        android:name=".Luncher"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/CustomActionBarTheme" >
         <activity
-            android:name="com.example.formation.myapplication.MainActivity"
+            android:name="com.example.formation.myapplication.activities.MainActivityImpl"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:enabled="true" android:name="com.example.formation.myapplication.services.AuthenticationService" />
     </application>
-
 </manifest>
